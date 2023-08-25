@@ -194,14 +194,17 @@ Modal
   
 }
 .hero-2 {
-  min-height: 600px;
+  min-height: 1000px;
   background: url("./images/peak_2-hero.jpg") center/cover no-repeat;
   margin-bottom: 2rem;
   padding-top: -40%;
   
 }
 .nav-2-img {
-  margin-top: 12rem;
+  padding-top: 40.5rem;
+  width: 100%;
+  min-height: 50%;
+
 }
 
 /*

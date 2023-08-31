@@ -194,18 +194,62 @@ Modal
   
 }
 .hero-2 {
-  min-height: 1000px;
+  min-height: 700px;
   background: url("./images/peak_2-hero.jpg") center/cover no-repeat;
-  margin-bottom: 2rem;
-  padding-top: -40%;
+  margin-bottom: 8rem;
+  padding-top: -12rem;
   
 }
-.nav-2-img {
-  padding-top: 40.5rem;
+
+.nav-2 {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 2.5rem;
+}
+.nav-header-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 3rem;
+  margin-top: 3rem;
+}
+.hero-2 .nav-2-img {
+  padding-top: 5.9rem;
   width: 100%;
-  min-height: 50%;
+  z-index: -9;
+  margin-top: 6rem;
 
 }
+.nav-header-2 {
+  margin-bottom: 2rem;
+}
+.nav-center-2 .social-icons-2 {
+  margin-left: 24rem;
+}
+ .social-icons-2 li {
+  padding-top: -2rem;
+}
+.social-icons-2 a:hover {
+  color: var(--clr-primary-7);
+}
+
+.hero-2-images {
+  margin-left: 12rem;
+
+}
+.hero-2 .hero-2-img {
+  width: 250px;
+  display: block;
+  padding: 0.5rem 1rem;
+  float: left;
+  left: 1rem;
+  align-items: center;
+  margin-top: 80rem;
+ 
+}
+
 
 /*
 =============== 
@@ -350,18 +394,18 @@ nav {
     margin-left: -4%;
     
 }
-.nav-2 {
+/*.nav-2 {
   height: 90px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-top: 1.5rem;
-}
+}*/
 .nav-header-2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem;
+  padding: -3rem;
 }
 
 .nav-header-2 .links a {
@@ -437,4 +481,4 @@ nav {
   color: var(--clr-primary-7);
 }
 
-}
+

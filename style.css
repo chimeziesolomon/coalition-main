@@ -234,6 +234,10 @@ Modal
 .social-icons-2 a:hover {
   color: var(--clr-primary-7);
 }
+.my-hero-2-images {
+  width: 100%;
+  min-height: 500px;
+}
 
 .hero-2-images {
   margin-left: 12rem;
